@@ -16,12 +16,12 @@ The home page for Go is golang.org, and there is an excellent interactive tutori
 go run file_name.go
 ```
 
-#### Run your code
+#### Run your tets
 ```
 go test
 ```
 
-#### BenchmarkXxx()
+##### BenchmarkXxx()
 
 BenchmarkXxx() is a benchmarking function. These functions follow the form `func BenchmarkXxx(*testing.B)` and can be used to test the performance of your implementation. They may not be present in every exercise, but when they are you can run them by including the `-bench` flag with the `go test` command, like so: 
 

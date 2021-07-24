@@ -31,7 +31,7 @@ go test -v --bench . --benchmem
 
 You will see output similar to the following:
 ```
-BenchmarkHelloWorld   	2000000000	         0.46 ns/op
+BenchmarkXxx   	2000000000	         0.46 ns/op
 ```
 This means that the loop ran 2000000000 times at a speed of 0.46 ns per loop.
 

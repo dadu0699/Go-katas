@@ -1,9 +1,5 @@
 package raindrops
 
-// Source: exercism/problem-specifications
-// Commit: 99de15d raindrops: apply "input" policy
-// Problem Specifications Version: 1.1.0
-
 var tests = []struct {
 	input    int
 	expected string

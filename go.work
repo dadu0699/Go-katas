@@ -1,0 +1,9 @@
+go 1.19
+
+use (
+	./hamming
+	./hello-world
+	./raindrops
+	./scrabble-score
+	./two-fer
+)
